@@ -4,10 +4,6 @@ The StayPress Enquiry plugin is a Gravity Forms addon that integrates the Proper
 
 It enables complex enquiry forms to be created using the Gravity Forms interface and bookings for properties made in the StayPress system, for those enquiries, directly from within the Gravity Forms interface.
 
-## Installing
-
-The enquiry plugin requires both Gravity Forms and the StayPress plugins to be installed and Activated. Once they are activted, simply activating the enquiry plugin will add in the relevant integration.
-
 ## Gravity Forms Integration
 
 Once installed and activated you will see the new StayPress fields in the Gravity Forms interface. The fields are all set to be hidden, so they won't show on your actual form, but they will be included in any enquiry emails you receive and can be used in the emails sent to the enquirer by Gravity Forms.
@@ -19,3 +15,11 @@ Once an enquiry has been received, the add-on will recognise those enquiries tha
 <img src='http://staypress.com/wp-content/blogs.dir/7/files/2012/03/bookone.png' />
 
 <img src='http://staypress.com/wp-content/blogs.dir/7/files/2011/07/infopanel.png' />
+
+## Downloading
+
+Downloading and Unzipping from Github creates a strange directory name (we'll work on a way to change this), so once downloaded and unzipped, rename the holding directory to something neater. We recommend calling it **sp_enquiry**, but that's because we used that directory name when we were developing it.
+
+## Installing
+
+The enquiry plugin requires both Gravity Forms and the StayPress plugins to be installed and Activated. Once they are activted, simply activating the enquiry plugin will add in the relevant integration.
