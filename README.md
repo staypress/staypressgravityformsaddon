@@ -16,6 +16,6 @@ Once installed and activated you will see the new StayPress fields in the Gravit
 
 Once an enquiry has been received, the add-on will recognise those enquiries that contain the extra fields and offer two new menu items - one in the enquiry list, and one in the enquiry details information box that will allow you to create a new booking directly from the information contained in the enquiry.
 
-<img src='http://staypress.com/wp-content/blogs.dir/7/files/2011/07/bookone.png' />
+<img src='http://staypress.com/wp-content/blogs.dir/7/files/2012/03/bookone.png' />
 
 <img src='http://staypress.com/wp-content/blogs.dir/7/files/2011/07/infopanel.png' />
