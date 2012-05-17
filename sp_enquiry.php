@@ -1,13 +1,13 @@
 <?php
 /*
 Plugin Name: StayPress Enquiry plugin
-Version: 1.2
+Version: 1.3
 Plugin URI: http://staypress.com
 Description: Gravity forms integration plugin to handle the staypress enquiry forms
-Author: StayPress
-Author URI: http://staypress.com
+Author: StayPress team
+Author URI: http://staypress.org
 
-Copyright 2010  (email: support@staypress.com)
+Copyright 2012  (email: support@staypress.com)
 
 This program is free software; you can redistribute it and/or modify
 it under the terms of the GNU General Public License as published by
