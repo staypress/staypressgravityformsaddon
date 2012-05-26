@@ -1,6 +1,6 @@
-## StayPress Enquiry plugin - Gravity Forms Add-on
+## StayPress Gravity Forms Add-on
 
-The StayPress Enquiry plugin is a Gravity Forms addon that integrates the Property and Booking plugins with Gravity Forms.
+The StayPress Gravity Forms addon integrates the Property and Booking plugins with Gravity Forms.
 
 It enables complex enquiry forms to be created using the Gravity Forms interface and bookings for properties made in the StayPress system, for those enquiries, directly from within the Gravity Forms interface.
 
@@ -18,7 +18,7 @@ Once an enquiry has been received, the add-on will recognise those enquiries tha
 
 ## Downloading
 
-Downloading and Unzipping from Github creates a strange directory name (we'll work on a way to change this), so once downloaded and unzipped, rename the holding directory to something neater. We recommend calling it **sp_enquiry**, but that's because we used that directory name when we were developing it.
+Stable downloads are available from the Downloads tab. If you want the latest development versions then you can use the Zip or Tar buttons, but you will need to rename the holding directory to something neater. We recommend calling it **sp_gfaddon**, but that's because we used that directory name when we were developing it.
 
 ## Installing
 
