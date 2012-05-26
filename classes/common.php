@@ -11,10 +11,10 @@ class SPECommon {
 
 		if(defined('WPMU_PLUGIN_URL') && defined('WPMU_PLUGIN_DIR') && file_exists(WPMU_PLUGIN_DIR . '/' . basename($base))) {
 			self::$SP_enquiry_url = trailingslashit(WPMU_PLUGIN_URL);
-		} elseif(defined('WP_PLUGIN_URL') && defined('WP_PLUGIN_DIR') && file_exists(WP_PLUGIN_DIR . '/sp_enquiry/' . basename($base))) {
-			self::$SP_enquiry_url = trailingslashit(WP_PLUGIN_URL . '/sp_enquiry');
+		} elseif(defined('WP_PLUGIN_URL') && defined('WP_PLUGIN_DIR') && file_exists(WP_PLUGIN_DIR . '/sp_gfaddon/' . basename($base))) {
+			self::$SP_enquiry_url = trailingslashit(WP_PLUGIN_URL . '/sp_gfaddon');
 		} else {
-			self::$SP_enquiry_url = trailingslashit(WP_PLUGIN_URL . '/sp_enquiry');
+			self::$SP_enquiry_url = trailingslashit(WP_PLUGIN_URL . '/sp_gfaddon');
 		}
 
 	}
@@ -24,10 +24,10 @@ class SPECommon {
 
 		if(defined('WPMU_PLUGIN_DIR') && file_exists(WPMU_PLUGIN_DIR . '/' . basename($base))) {
 			self::$SP_enquiry_dir = trailingslashit(WPMU_PLUGIN_URL);
-		} elseif(defined('WP_PLUGIN_DIR') && file_exists(WP_PLUGIN_DIR . '/sp_enquiry/' . basename($base))) {
-			self::$SP_enquiry_dir = trailingslashit(WP_PLUGIN_DIR . '/sp_enquiry');
+		} elseif(defined('WP_PLUGIN_DIR') && file_exists(WP_PLUGIN_DIR . '/sp_gfaddon/' . basename($base))) {
+			self::$SP_enquiry_dir = trailingslashit(WP_PLUGIN_DIR . '/sp_gfaddon');
 		} else {
-			self::$SP_enquiry_dir = trailingslashit(WP_PLUGIN_DIR . '/sp_enquiry');
+			self::$SP_enquiry_dir = trailingslashit(WP_PLUGIN_DIR . '/sp_gfaddon');
 		}
 	}
 

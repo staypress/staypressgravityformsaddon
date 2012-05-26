@@ -1,6 +1,6 @@
 <?php
 /*
-Plugin Name: StayPress Enquiry plugin
+Plugin Name: StayPress Gravity Forms Addon
 Version: 1.3
 Plugin URI: http://staypress.com
 Description: Gravity forms integration plugin to handle the staypress enquiry forms
@@ -26,7 +26,7 @@ Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307  USA
 
 require_once('classes/common.php');
 
-class sp_enquiry_gf_integration {
+class sp_gf_integration {
 
 	var $options;
 	var $formdetail;
@@ -58,7 +58,7 @@ class sp_enquiry_gf_integration {
 
 	}
 
-	function sp_enquiry_gf_integration() {
+	function sp_gf_integration() {
 		$this->__construct();
 	}
 
@@ -648,6 +648,6 @@ class sp_enquiry_gf_integration {
 
 }
 
-$sp_enquiry_gf_integration = new sp_enquiry_gf_integration();
+$sp_gf_integration = new sp_gf_integration();
 
 ?>
